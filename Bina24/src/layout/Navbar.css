@@ -19,5 +19,39 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+}
+.filter-section {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.filter-main {
+    display: flex;
+    justify-content: space-between;
+}
+.filter-choices button {
+    padding: 8px 36px;
+    border-radius: 60px;
+    color: #878786;
+    border: 1px solid #878786;
+}
+.filter-choices button:hover {
+    background-color: #878786;
+    color: #fff;
+}
+.filter-choices {
+    display: flex;
+    gap: 10px;
+}
+.filter-inputs {
+    border: 1px solid #878786;
+    border-radius: 8px;
+    padding: 10px 16px;
+    display: flex;
+}
+.filter-input input, .filter-search-input input {
+    outline: none;
 }
