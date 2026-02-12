@@ -4,7 +4,7 @@ import Logo from '../images/logo.svg'
 import { IoIosArrowDown } from "react-icons/io";
 import user from '../images/userikon.svg'
 import { LuArrowUpRight } from "react-icons/lu";
-
+import Selectarrow from '../images/selectarrow.png'
 
 function Navbar() {
   return (
@@ -36,10 +36,66 @@ function Navbar() {
           </div>
         </div>
         <div className="header-content">
-          <h1 className='text-[40px] text-[#F5F6F4] w-170 text-center leading-[1.2]'>Əmlak tapmaq indi çox asandır, sadəcə bax və seç</h1>
+          <h1 className='text-[40px] text-[#F5F6F4] w-170 text-center leading-[1.2] mt-[130px]'>Əmlak tapmaq indi çox asandır, sadəcə bax və seç</h1>
           <p className='text-[22px] text-[#F5F6F4] mt-2.5'> Bütün əmlak elanlarını bir platformada kəşf et, uyğununu asan tap.</p>
-          <button className='text-[#F5F6F4] text-[18px] bg-[#257E37] py-2 px-5 rounded-[60px] flex items-center gap-2 mt-5' >Elanlara bax <LuArrowUpRight  className='text-[20px]'/></button>
+          <button className='text-[#F5F6F4] text-[18px] bg-[#257E37] py-2 px-5 rounded-[60px] flex items-center gap-2 mt-5 mb-[30px]' >Elanlara bax <LuArrowUpRight className='text-[20px]' /></button>
         </div>
+        <div className="container">
+
+          <div className="filter-section">
+            <h2>Axtarışa Başla</h2>
+            <div className="filter-main">
+              <div className="filter-search">
+                <p className='mb-[5px]'>Axtarış et</p>
+                <div className="filter-inputs">
+                  <div className="filter-search-input">
+                    <input type="text" placeholder='Şəhər, Kompleks, Ünvan...' />
+
+                  </div>
+                </div>
+              </div>
+              <div className="filter-price">
+                <p className='mb-[5px]'>Qiymət</p>
+                <div className="filter-inputs">
+                  <div className="filter-input">
+                    <input type="text" placeholder='Daxil et' />
+                  </div>
+                  <div className="filter-input-inner-arrow">
+                    <img src={Selectarrow} alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="filter-place">
+                <p className='mb-[5px]'>Məkan</p>
+                <div className="filter-inputs">
+                  <div className="filter-input">
+                    <input type="text" placeholder='Daxil et' />
+                  </div>
+                  <div className="filter-input-inner-arrow">
+                    <img src={Selectarrow} alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="filter-rooms">
+                <p className='mb-[5px]'>Otaq</p>
+                <div className="filter-inputs">
+                  <div className="filter-input">
+                    <input type="text" placeholder='Daxil et' />
+                  </div>
+                  <div className="filter-input-inner-arrow">
+                    <img src={Selectarrow} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="filter-choices mt-[5px]">
+              <button>Alış</button>
+              <button>Kirayə</button>
+              <button>Torpaq</button>
+            </div>
+          </div>
+        </div>
+
       </header>
     </>
   )
