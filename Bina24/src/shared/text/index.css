@@ -1,0 +1,38 @@
+.ady-text {
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+/* Rəng */
+.ady-text-light {
+  color: #f5f6f4;
+}
+.ady-text-dark {
+  color: #2a2d32;
+}
+
+/* Font size */
+.ady-text-16 {
+  font-size: 16px;
+}
+.ady-text-18 {
+  font-size: 18px;
+}
+
+/* Font family */
+.ady-font-dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+.ady-font-dm-sans-medium {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+.ady-font-dm-sans-semibold {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+.ady-font-dm-sans-bold {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}

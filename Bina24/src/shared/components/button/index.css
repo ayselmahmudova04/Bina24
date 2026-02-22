@@ -1,0 +1,52 @@
+.ady-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60px;
+  box-sizing: border-box;
+}
+
+.ady-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.ady-button-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sizes */
+.ady-button-small {
+  padding: 4px 20px;
+}
+
+.ady-button-medium {
+  padding: 8px 36px;
+}
+
+.ady-button-large {
+  padding: 20px 12px;
+}
+
+/* Backgrounds */
+.ady-button-bg-green {
+  background-color: #257e37;
+}
+
+.ady-button-bg-gray {
+  background-color: #c9c9c9;
+}
+
+.ady-button-bg-light {
+  background-color: #e9e9e9;
+}
+
+/* Full width */
+.ady-button-fullWidth {
+  width: 100%;
+}

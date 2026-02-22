@@ -77,7 +77,7 @@ function Navbar() {
                 </div>
               </div>
               <div className="filter-rooms">
-                <p className='mb-[5px]'>Otaq</p>
+                <p className='mb-1.25'>Otaq</p>
                 <div className="filter-inputs">
                   <div className="filter-input">
                     <input type="text" placeholder='Daxil et' />
